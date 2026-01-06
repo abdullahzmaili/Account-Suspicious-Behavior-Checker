@@ -199,7 +199,7 @@ Each sign-in indicator has an equal weight of **8.33%** (100 รท 12).
 
 ---
 
-## ๐��ก๏ธ� Audit Indicators
+## Audit Indicators
 
 ### Main Audit Indicators (4 Total)
 Each main indicator has a weight of **25%** (100 รท 4).
@@ -273,7 +273,7 @@ Each suspicious activity has a weight of **7.69%** (100 รท 13).
 
 ---
 
-## ๐�“� Score Calculation Examples
+## Score Calculation Examples
 
 ### Example 1: High-Risk Scenario
 ```
@@ -315,7 +315,7 @@ Overall Score = (85 ร— 60%) + (90 ร— 40%)
 
 ---
 
-## ๐�“� Metrics Tracked
+## Metrics Tracked
 
 ### Sign-In Metrics
 - Total sign-ins, successful, failed, interrupted
@@ -332,7 +332,7 @@ Overall Score = (85 ร— 60%) + (90 ร— 40%)
 
 ---
 
-## ๐��จ Report Features
+## Report Features
 
 ### Executive Summary
 - Overall risk score with color-coded indicator
@@ -359,7 +359,7 @@ Overall Score = (85 ร— 60%) + (90 ร— 40%)
 
 ---
 
-## ๐�”ง Parameters Reference
+## Parameters Reference
 
 | Parameter | Type | Description | Example |
 |-----------|------|-------------|---------|
@@ -390,7 +390,7 @@ Overall Score = (85 ร— 60%) + (90 ร— 40%)
 
 ---
 
-## ๐�“� Examples
+## Examples
 
 ### Example 1: Quick Analysis with Existing CSV
 ```powershell
@@ -418,7 +418,7 @@ Overall Score = (85 ร— 60%) + (90 ร— 40%)
 
 ---
 
-## ๐���๏ธ� Troubleshooting
+## Troubleshooting
 
 ### Module Installation Issues
 If the Microsoft.Graph module fails to install:
@@ -438,7 +438,7 @@ Ensure CSV files contain these columns:
 
 ---
 
-## ๐�“� Output Files
+## Output Files
 
 ### Generated Files
 1. **SignIn_Logs_[timestamp].csv**: Raw sign-in data
@@ -456,7 +456,7 @@ Ensure CSV files contain these columns:
 
 ---
 
-## ๐�”� Security Notes
+## Security Notes
 
 - Script requires read-only permissions
 - No data is sent externally
@@ -466,7 +466,7 @@ Ensure CSV files contain these columns:
 
 ---
 
-## ๐�‘ค Author
+## Author
 
 **Abdullah Zmaili**
 - Version: 1.0
@@ -474,7 +474,7 @@ Ensure CSV files contain these columns:
 
 ---
 
-## ๐�“� Disclaimer
+## Disclaimer
 
 This script has been thoroughly tested across various environments. However:
 1. You are responsible for how you use the script
@@ -484,7 +484,7 @@ This script has been thoroughly tested across various environments. However:
 
 ---
 
-## ๐�“� Additional Documentation
+## Additional Documentation
 
 - See [QUICKSTART.md](QUICKSTART.md) for rapid deployment guide
 - See [INSTRUCTIONS.md](INSTRUCTIONS.md) for detailed step-by-step instructions
@@ -492,7 +492,7 @@ This script has been thoroughly tested across various environments. However:
 
 ---
 
-## ๐��� Support
+## Support
 
 For issues or questions:
 1. Review documentation thoroughly
@@ -503,5 +503,6 @@ For issues or questions:
 ---
 
 **Last Updated**: January 4, 2026
+
 
 
