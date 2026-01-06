@@ -2,13 +2,13 @@
 
 A PowerShell tool for analyzing Entra ID (Azure AD) sign-in and audit logs to detect indicators of account suspicious behavior. This script provides detailed risk assessment, suspicious activity detection, and generates professional HTML reports.
 
-## ๐��ฏ Overview
+## Overview
 
 The Account Suspicious Behavior Checker performs deep analysis of user activity across two main categories:
 - **Sign-In Analysis**: Detects anomalous sign-in patterns, location hopping, brute-force attempts, and suspicious behaviors
 - **Audit Log Analysis**: Monitors privileged operations, policy changes, bulk actions, and administrative activities
 
-## โ�จ Key Features
+## Key Features
 
 - **Comprehensive Risk Scoring**: Weighted scoring system across 25+ indicators
 - **Dual Analysis**: Sign-in logs + Directory audit logs
@@ -18,14 +18,14 @@ The Account Suspicious Behavior Checker performs deep analysis of user activity 
 - **Time-Range Filtering**: Filter logs by specific date ranges
 - **Automated Detection**: 13 suspicious audit patterns + 12 sign-in indicators
 
-## ๐�“� Requirements
+## Requirements
 
 - **PowerShell**: 5.1 or later
 - **Module**: Microsoft.Graph PowerShell module (auto-installed if missing)
 - **Permissions**: `AuditLog.Read.All` or `Directory.Read.All` (when connecting to Entra ID)
 - **Administrator**: Required for module installation (if not already installed)
 
-## ๐��€ Quick Start
+## Quick Start
 
 ### Option 1: Analyze Existing CSV Files
 ```powershell
@@ -63,7 +63,7 @@ Overall Score = (Sign-In Score ร— 50%) + (Audit Score ร— 50%)
 
 ---
 
-## ๐�”� Sign-In Indicators (12 Total)
+## Sign-In Indicators (12 Total)
 
 Each sign-in indicator has an equal weight of **8.33%** (100 รท 12).
 
@@ -503,3 +503,4 @@ For issues or questions:
 ---
 
 **Last Updated**: January 4, 2026
+
