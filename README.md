@@ -43,7 +43,7 @@ The Account Suspicious Behavior Checker performs deep analysis of user activity 
 ```
 The script will guide you through mode selection and configuration.
 
-## ๐�“� How Scores Are Calculated
+## How Scores Are Calculated
 
 ### Overall Risk Score (0-100)
 The overall risk score is calculated by combining two major components:
@@ -503,4 +503,5 @@ For issues or questions:
 ---
 
 **Last Updated**: January 4, 2026
+
 
